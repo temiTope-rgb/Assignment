@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.menu{
+ padding:10px;
+  margin:10px;
+  background-color:gray;
+  border-width:300px;
+
+}
+.menu ul{
+ padding:40px;
+  
+}
+.menu li{
+  float:left;
+  list-style-type: none;
+  padding: 20px;
+  font-size:20px;
+  font-family:arial;
+  font-weight:bold;
+ 
+
+}
+li a{
+  text-decoration: none;
+  
+}
+li a:hover{
+  color:brown;
+   display:block;
+}
+body{
+  background-image:url(https://cdn.pixabay.com/photo/2018/07/02/21/29/daylily-3512540_960_720.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+
+}
+h1{
+  color:gray;
+  font-size:50px;
+  font-family:arial;
+  font-weight:bold;
+  float:justify;
+  
+}
+img{
+  width:300px;
+  height:300px;
+  float:center;
+  border-radius: 50px;
+}
+.name{
+  color:darkgray;
+}
+.para{
+  color:whitesmoke;
+
+}
+.project{
+  color:darkorange
+}
+.project a{
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   color: gray;
+   text-align: center;
+
+
